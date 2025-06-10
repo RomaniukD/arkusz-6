@@ -13,7 +13,7 @@
     </header>
     
     <main>
-        <section>
+        <article id="block_lewy">
             <table>
                 <tr>
                     <th>HEX</th>
@@ -51,15 +51,15 @@
                     <td>15</td>
                 </tr>
             </table>
-        </section>
+        </article>
 
-        <section>
+        <article id="block_srodkowy">
             <input type="number" name="liczba" id="liczba" placeholder="Wpisz liczbę dziesiętną">
             <button onclick="oblicz()">Przelicz na binarny</button>
-            <p>Brak obliczeń</p>
-        </section>
+            <p id="wynik">Brak obliczeń</p>
+        </article>
         
-        <section>
+        <article id="block_prawy">
             <h2>Słowniczek</h2>
                 <ul>
                     <li>Binarny</li>
@@ -69,9 +69,11 @@
                     <li><a href="https://szesnastkowy_system_liczbowy.pl/">Heksadecymalny</a></li>
                         <ul><li>pozycyjny system liczbowy, w którym podstawą jest liczba 16. Do zapisu liczb w tym systemie potrzebne jest szesnaście znaków.  </li></ul>       
                 </ul>
-        </section>
+        </article>
     </main>
 
     <footer><p>Stronę opracował: Denis Romaniuk</p></footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
